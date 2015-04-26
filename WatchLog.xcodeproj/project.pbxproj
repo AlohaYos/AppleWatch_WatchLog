@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF8C3DB71AC228860090C27A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8C3DB61AC228860090C27A /* main.m */; };
+		FF8C3DBA1AC228860090C27A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8C3DB91AC228860090C27A /* AppDelegate.m */; };
+		FF8C3DBD1AC228860090C27A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8C3DBC1AC228860090C27A /* ViewController.m */; };
+		FF8C3DC01AC228860090C27A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8C3DBE1AC228860090C27A /* Main.storyboard */; };
+		FF8C3DC21AC228860090C27A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8C3DC11AC228860090C27A /* Images.xcassets */; };
+		FF8C3DC51AC228860090C27A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8C3DC31AC228860090C27A /* LaunchScreen.xib */; };
+		FF8C3DD11AC228860090C27A /* WatchLogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8C3DD01AC228860090C27A /* WatchLogTests.m */; };
+		FF8C3DE41AC228A10090C27A /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8C3DE31AC228A10090C27A /* InterfaceController.m */; };
+		FF8C3DE61AC228A10090C27A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8C3DE51AC228A10090C27A /* Images.xcassets */; };
+		FF8C3DEA1AC228A10090C27A /* WatchLog WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = FF8C3DE91AC228A10090C27A /* WatchLog WatchKit App.app */; };
+		FF8C3DF21AC228A10090C27A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8C3DF01AC228A10090C27A /* Interface.storyboard */; };
+		FF8C3DF41AC228A10090C27A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8C3DF31AC228A10090C27A /* Images.xcassets */; };
+		FF8C3DF71AC228A10090C27A /* WatchLog WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FF8C3DDE1AC228A10090C27A /* WatchLog WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF8C3DCB1AC228860090C27A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8C3DA91AC228860090C27A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8C3DB01AC228860090C27A;
+			remoteInfo = WatchLog;
+		};
+		FF8C3DEB1AC228A10090C27A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8C3DA91AC228860090C27A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8C3DE81AC228A10090C27A;
+			remoteInfo = "WatchLog WatchKit App";
+		};
+		FF8C3DF51AC228A10090C27A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8C3DA91AC228860090C27A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8C3DDD1AC228A10090C27A;
+			remoteInfo = "WatchLog WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF8C3DFE1AC228A10090C27A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FF8C3DF71AC228A10090C27A /* WatchLog WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF8C3DB11AC228860090C27A /* WatchLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8C3DB51AC228860090C27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8C3DB61AC228860090C27A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF8C3DB81AC228860090C27A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF8C3DB91AC228860090C27A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF8C3DBB1AC228860090C27A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF8C3DBC1AC228860090C27A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF8C3DBF1AC228860090C27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF8C3DC11AC228860090C27A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF8C3DC41AC228860090C27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF8C3DCA1AC228860090C27A /* WatchLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8C3DCF1AC228860090C27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8C3DD01AC228860090C27A /* WatchLogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchLogTests.m; sourceTree = "<group>"; };
+		FF8C3DDE1AC228A10090C27A /* WatchLog WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchLog WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8C3DE11AC228A10090C27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8C3DE21AC228A10090C27A /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		FF8C3DE31AC228A10090C27A /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		FF8C3DE51AC228A10090C27A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF8C3DE91AC228A10090C27A /* WatchLog WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchLog WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8C3DEF1AC228A10090C27A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8C3DF11AC228A10090C27A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FF8C3DF31AC228A10090C27A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF8C3DAE1AC228860090C27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8C3DC71AC228860090C27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8C3DDB1AC228A10090C27A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF8C3DA81AC228860090C27A = {
+			isa = PBXGroup;
+			children = (
+				FF8C3DB31AC228860090C27A /* WatchLog */,
+				FF8C3DCD1AC228860090C27A /* WatchLogTests */,
+				FF8C3DDF1AC228A10090C27A /* WatchLog WatchKit Extension */,
+				FF8C3DED1AC228A10090C27A /* WatchLog WatchKit App */,
+				FF8C3DB21AC228860090C27A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF8C3DB21AC228860090C27A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF8C3DB11AC228860090C27A /* WatchLog.app */,
+				FF8C3DCA1AC228860090C27A /* WatchLogTests.xctest */,
+				FF8C3DDE1AC228A10090C27A /* WatchLog WatchKit Extension.appex */,
+				FF8C3DE91AC228A10090C27A /* WatchLog WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8C3DB31AC228860090C27A /* WatchLog */ = {
+			isa = PBXGroup;
+			children = (
+				FF8C3DB81AC228860090C27A /* AppDelegate.h */,
+				FF8C3DB91AC228860090C27A /* AppDelegate.m */,
+				FF8C3DBB1AC228860090C27A /* ViewController.h */,
+				FF8C3DBC1AC228860090C27A /* ViewController.m */,
+				FF8C3DBE1AC228860090C27A /* Main.storyboard */,
+				FF8C3DC11AC228860090C27A /* Images.xcassets */,
+				FF8C3DC31AC228860090C27A /* LaunchScreen.xib */,
+				FF8C3DB41AC228860090C27A /* Supporting Files */,
+			);
+			path = WatchLog;
+			sourceTree = "<group>";
+		};
+		FF8C3DB41AC228860090C27A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF8C3DB51AC228860090C27A /* Info.plist */,
+				FF8C3DB61AC228860090C27A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF8C3DCD1AC228860090C27A /* WatchLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF8C3DD01AC228860090C27A /* WatchLogTests.m */,
+				FF8C3DCE1AC228860090C27A /* Supporting Files */,
+			);
+			path = WatchLogTests;
+			sourceTree = "<group>";
+		};
+		FF8C3DCE1AC228860090C27A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF8C3DCF1AC228860090C27A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF8C3DDF1AC228A10090C27A /* WatchLog WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FF8C3DE21AC228A10090C27A /* InterfaceController.h */,
+				FF8C3DE31AC228A10090C27A /* InterfaceController.m */,
+				FF8C3DE51AC228A10090C27A /* Images.xcassets */,
+				FF8C3DE01AC228A10090C27A /* Supporting Files */,
+			);
+			path = "WatchLog WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FF8C3DE01AC228A10090C27A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF8C3DE11AC228A10090C27A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF8C3DED1AC228A10090C27A /* WatchLog WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FF8C3DF01AC228A10090C27A /* Interface.storyboard */,
+				FF8C3DF31AC228A10090C27A /* Images.xcassets */,
+				FF8C3DEE1AC228A10090C27A /* Supporting Files */,
+			);
+			path = "WatchLog WatchKit App";
+			sourceTree = "<group>";
+		};
+		FF8C3DEE1AC228A10090C27A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF8C3DEF1AC228A10090C27A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF8C3DB01AC228860090C27A /* WatchLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8C3DD41AC228860090C27A /* Build configuration list for PBXNativeTarget "WatchLog" */;
+			buildPhases = (
+				FF8C3DAD1AC228860090C27A /* Sources */,
+				FF8C3DAE1AC228860090C27A /* Frameworks */,
+				FF8C3DAF1AC228860090C27A /* Resources */,
+				FF8C3DFE1AC228A10090C27A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8C3DF61AC228A10090C27A /* PBXTargetDependency */,
+			);
+			name = WatchLog;
+			productName = WatchLog;
+			productReference = FF8C3DB11AC228860090C27A /* WatchLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF8C3DC91AC228860090C27A /* WatchLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8C3DD71AC228860090C27A /* Build configuration list for PBXNativeTarget "WatchLogTests" */;
+			buildPhases = (
+				FF8C3DC61AC228860090C27A /* Sources */,
+				FF8C3DC71AC228860090C27A /* Frameworks */,
+				FF8C3DC81AC228860090C27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8C3DCC1AC228860090C27A /* PBXTargetDependency */,
+			);
+			name = WatchLogTests;
+			productName = WatchLogTests;
+			productReference = FF8C3DCA1AC228860090C27A /* WatchLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF8C3DDD1AC228A10090C27A /* WatchLog WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8C3DFB1AC228A10090C27A /* Build configuration list for PBXNativeTarget "WatchLog WatchKit Extension" */;
+			buildPhases = (
+				FF8C3DDA1AC228A10090C27A /* Sources */,
+				FF8C3DDB1AC228A10090C27A /* Frameworks */,
+				FF8C3DDC1AC228A10090C27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8C3DEC1AC228A10090C27A /* PBXTargetDependency */,
+			);
+			name = "WatchLog WatchKit Extension";
+			productName = "WatchLog WatchKit Extension";
+			productReference = FF8C3DDE1AC228A10090C27A /* WatchLog WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		FF8C3DE81AC228A10090C27A /* WatchLog WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8C3DF81AC228A10090C27A /* Build configuration list for PBXNativeTarget "WatchLog WatchKit App" */;
+			buildPhases = (
+				FF8C3DE71AC228A10090C27A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchLog WatchKit App";
+			productName = "WatchLog WatchKit App";
+			productReference = FF8C3DE91AC228A10090C27A /* WatchLog WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF8C3DA91AC228860090C27A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Newton Japan";
+				TargetAttributes = {
+					FF8C3DB01AC228860090C27A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FF8C3DC91AC228860090C27A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FF8C3DB01AC228860090C27A;
+					};
+					FF8C3DDD1AC228A10090C27A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FF8C3DE81AC228A10090C27A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = FF8C3DAC1AC228860090C27A /* Build configuration list for PBXProject "WatchLog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF8C3DA81AC228860090C27A;
+			productRefGroup = FF8C3DB21AC228860090C27A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF8C3DB01AC228860090C27A /* WatchLog */,
+				FF8C3DC91AC228860090C27A /* WatchLogTests */,
+				FF8C3DDD1AC228A10090C27A /* WatchLog WatchKit Extension */,
+				FF8C3DE81AC228A10090C27A /* WatchLog WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF8C3DAF1AC228860090C27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8C3DC01AC228860090C27A /* Main.storyboard in Resources */,
+				FF8C3DC51AC228860090C27A /* LaunchScreen.xib in Resources */,
+				FF8C3DC21AC228860090C27A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8C3DC81AC228860090C27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8C3DDC1AC228A10090C27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8C3DE61AC228A10090C27A /* Images.xcassets in Resources */,
+				FF8C3DEA1AC228A10090C27A /* WatchLog WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8C3DE71AC228A10090C27A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8C3DF21AC228A10090C27A /* Interface.storyboard in Resources */,
+				FF8C3DF41AC228A10090C27A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF8C3DAD1AC228860090C27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8C3DBD1AC228860090C27A /* ViewController.m in Sources */,
+				FF8C3DBA1AC228860090C27A /* AppDelegate.m in Sources */,
+				FF8C3DB71AC228860090C27A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8C3DC61AC228860090C27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8C3DD11AC228860090C27A /* WatchLogTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8C3DDA1AC228A10090C27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8C3DE41AC228A10090C27A /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF8C3DCC1AC228860090C27A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8C3DB01AC228860090C27A /* WatchLog */;
+			targetProxy = FF8C3DCB1AC228860090C27A /* PBXContainerItemProxy */;
+		};
+		FF8C3DEC1AC228A10090C27A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8C3DE81AC228A10090C27A /* WatchLog WatchKit App */;
+			targetProxy = FF8C3DEB1AC228A10090C27A /* PBXContainerItemProxy */;
+		};
+		FF8C3DF61AC228A10090C27A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8C3DDD1AC228A10090C27A /* WatchLog WatchKit Extension */;
+			targetProxy = FF8C3DF51AC228A10090C27A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF8C3DBE1AC228860090C27A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8C3DBF1AC228860090C27A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF8C3DC31AC228860090C27A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8C3DC41AC228860090C27A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FF8C3DF01AC228A10090C27A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8C3DF11AC228A10090C27A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF8C3DD21AC228860090C27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF8C3DD31AC228860090C27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF8C3DD51AC228860090C27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF8C3DD61AC228860090C27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WatchLog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF8C3DD81AC228860090C27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchLog.app/WatchLog";
+			};
+			name = Debug;
+		};
+		FF8C3DD91AC228860090C27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WatchLogTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchLog.app/WatchLog";
+			};
+			name = Release;
+		};
+		FF8C3DF91AC228A10090C27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WatchLog_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchLog WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		FF8C3DFA1AC228A10090C27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WatchLog_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchLog WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		FF8C3DFC1AC228A10090C27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WatchLog WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF8C3DFD1AC228A10090C27A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchLog WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF8C3DAC1AC228860090C27A /* Build configuration list for PBXProject "WatchLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8C3DD21AC228860090C27A /* Debug */,
+				FF8C3DD31AC228860090C27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8C3DD41AC228860090C27A /* Build configuration list for PBXNativeTarget "WatchLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8C3DD51AC228860090C27A /* Debug */,
+				FF8C3DD61AC228860090C27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF8C3DD71AC228860090C27A /* Build configuration list for PBXNativeTarget "WatchLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8C3DD81AC228860090C27A /* Debug */,
+				FF8C3DD91AC228860090C27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF8C3DF81AC228A10090C27A /* Build configuration list for PBXNativeTarget "WatchLog WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8C3DF91AC228A10090C27A /* Debug */,
+				FF8C3DFA1AC228A10090C27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF8C3DFB1AC228A10090C27A /* Build configuration list for PBXNativeTarget "WatchLog WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8C3DFC1AC228A10090C27A /* Debug */,
+				FF8C3DFD1AC228A10090C27A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF8C3DA91AC228860090C27A /* Project object */;
+}
